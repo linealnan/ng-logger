@@ -6,7 +6,7 @@ describe('LoggerService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: NgLoggerService = TestBed.get(NgLoggerService);
+    const service: LoggerService = TestBed.get(LoggerService);
     expect(service).toBeTruthy();
   });
 });
